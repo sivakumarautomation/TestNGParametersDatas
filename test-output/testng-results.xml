@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-22T10:09:36Z" name="Suite" finished-at="2023-07-22T10:09:48Z" duration-ms="11705">
+    <groups>
+    </groups>
+    <test started-at="2023-07-22T10:09:36Z" name="Hubspot Application" finished-at="2023-07-22T10:09:48Z" duration-ms="11705">
+      <class name="loginpage.LoginPage">
+        <test-method signature="url(java.lang.String)[pri:0, instance:loginpage.LoginPage@28dcca0c]" started-at="2023-07-22T10:09:36Z" name="url" finished-at="2023-07-22T10:09:42Z" duration-ms="5951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://app.hubspot.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="loginCredentials(java.lang.String, java.lang.String)[pri:1, instance:loginpage.LoginPage@28dcca0c]" started-at="2023-07-22T10:09:42Z" name="loginCredentials" finished-at="2023-07-22T10:09:43Z" duration-ms="442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sivakumarcreators@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCredentials -->
+        <test-method signature="close()[pri:2, instance:loginpage.LoginPage@28dcca0c]" started-at="2023-07-22T10:09:43Z" name="close" finished-at="2023-07-22T10:09:48Z" duration-ms="5261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- loginpage.LoginPage -->
+    </test> <!-- Hubspot Application -->
+  </suite> <!-- Suite -->
+</testng-results>
